@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "Grimoire"
 include("ktor-with-typst")
+include("reinterpret_cast")

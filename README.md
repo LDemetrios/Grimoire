@@ -24,6 +24,14 @@ I'll add pdfs or readmes describing what happens as soon as I can.
 
 Minimalistic example of a webserver that uses Typst for HTML generation. It uses Ktor for webservering, and TyKo for typsting. See [README](ktor-with-typst/README.md).
 
+![screenshot.png](ktor-with-typst/screenshot.png)
+
 ### Turing Machine in Typst
 
 Quite self-explanatory. See [README](typst-turing-machine/README.md).
+
+<img src="./typst-turing-machine/examples/zero.png" width="300" />
+
+### `reinterpret_cast` and Java
+
+Impossible, you say? Ha. Just not as easy. The explanation is in [pdf](reinterpret_cast/reinterpret-cast-and-java.pdf).
