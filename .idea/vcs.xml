@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LDemetriosCommons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TyKo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/typst-shared-library" vcs="Git" />
+  </component>
+</project>
