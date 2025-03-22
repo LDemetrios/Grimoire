@@ -18,7 +18,6 @@ import java.nio.file.Path
 import kotlin.io.path.Path
 import kotlin.system.exitProcess
 
-val SHARED_LIBRARY_PATH = Path("..", System.mapLibraryName("typst_shared"))
 val PARAMS_PATH = "${File.separator}__query-parameters.typc"
 
 class RealWorld() : World {
@@ -61,7 +60,8 @@ class RealWorld() : World {
 }
 
 fun main(args: Array<String>) {
-    val sharedLib = TypstSharedLibrary.instance(SHARED_LIBRARY_PATH)
+    val path = args.getOrNull(1)?.let { Path(it) } ?: Path(".", System.mapLibraryName("typst_shared"))
+    val sharedLib = TypstSharedLibrary.instance(path)
     val world = RealWorld()
     val compiler = WorldBasedTypstCompiler(sharedLib, world)
 
