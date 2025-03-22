@@ -22,4 +22,8 @@ I'll add pdfs or readmes describing what happens as soon as I can.
 
 ### Ktor & Typst
 
-Minimalistic example of a webserver that uses Typst for HTML generation. It uses Ktor for webservering, and TyKo for typsting. 
+Minimalistic example of a webserver that uses Typst for HTML generation. It uses Ktor for webservering, and TyKo for typsting. See [README](ktor-with-typst/README.md).
+
+### Turing Machine in Typst
+
+Quite self-explanatory. See [README](typst-turing-machine/README.md).
