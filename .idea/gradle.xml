@@ -13,6 +13,15 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/noexcept" />
+        <option name="gradleHome" value="/usr/share/java/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/noexcept" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

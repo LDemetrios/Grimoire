@@ -19,6 +19,26 @@ To install those, run `./setup.sh` (you'll also need `cargo` to be installed).
 
 I'll add pdfs or readmes describing what happens as soon as I can.
 
+### NoExcept
+
+Just an analog of `noexcept` in Java. So that I can do this:
+
+```java
+    @NoExcept
+    public static void riskyMethod() {
+        throw new RuntimeException("Failure");
+    }
+
+    public static void main(String[] args) {
+        new Thread(() -> {
+            while(true) {
+                // This prevents JVM from shutting down if main fails.
+            }
+        }).start();
+        riskyMethod(); // Shuts down the JVM
+    }
+```
+
 
 ### Ktor & Typst
 
