@@ -39,6 +39,7 @@ Just an analog of `noexcept` in Java. So that I can do this:
     }
 ```
 
+Behold [the magic](noexcept/) 
 
 ### Ktor & Typst
 
