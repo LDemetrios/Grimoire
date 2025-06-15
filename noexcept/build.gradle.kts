@@ -1,7 +1,7 @@
 plugins {
     java
     application
-    id("io.freefair.aspectj") version "8.13.1"
+    id("io.freefair.aspectj.post-compile-weaving") version "8.13.1"
 }
 
 
@@ -22,11 +22,15 @@ tasks.test {
     useJUnitPlatform()
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
-
 sourceSets.main {
     java.srcDir("src")
-    aspectj.srcDir("aspect")
+//    aspectj.srcDir("aspect")
 }
+
+//configure<io.freefair.gradle.plugins.aspectj.AspectJCompileOptions> {
+//    compilerArgs.add("-showWeaveInfo")
+//}
+//
+//configure<io.freefair.gradle.plugins.aspectj.AspectJCompileOptions> {
+//    compilerArgs.add("-showWeaveInfo")
+//}

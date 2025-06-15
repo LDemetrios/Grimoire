@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b884250b-17ce-45e2-b45c-ebf3a45559a0" name="Changes" comment="+ Ktor&amp;Typst screenshot">
-      <change afterPath="$PROJECT_DIR$/noexcept/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/aspect/org/ldemetrios/noexcept/NoExceptAspect.aj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/src/org.ldemetrios.noexcept/NoExcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noexcept/src/org/ldemetrios/example/Example.java" afterDir="false" />
+    <list default="true" id="b884250b-17ce-45e2-b45c-ebf3a45559a0" name="Changes" comment="* Hopefully exclude .tm files from indexing">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noexcept/aspect/org/ldemetrios/noexcept/NoExceptAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/noexcept/aspect/org/ldemetrios/noexcept/NoExceptAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noexcept/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/noexcept/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noexcept/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/noexcept/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noexcept/src/org/ldemetrios/example/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/noexcept/src/org/ldemetrios/example/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +103,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build Grimoire.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.Grimoire:reinterpret_cast [:reinterpret_cast:Main.main()].executor": "Run",
     "Gradle.noexcept [:org.ldemetrios.example.Example.main()].executor": "Run",
     "Kotlin.MainKt.executor": "Run",
@@ -112,16 +112,18 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ldemetrios/Workspace/Grimoire/noexcept/src",
-    "onboarding.tips.debug.path": "/home/ldemetrios/Workspace/Grimoire/reinterpret_cast/src/main/java/org/ldemetrios/Main.java",
+    "last_opened_file_path": "/home/ldemetrios/Workspace/Grimoire/prolog/src",
+    "onboarding.tips.debug.path": "/home/ldemetrios/Workspace/Grimoire/prolog/src/main/kotlin/Main.kt",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.scopes"
+    "settings.editor.selected.configurable": "http.proxy"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prolog/src" />
+      <recent name="$PROJECT_DIR$/noexcept/src/main/main.aspectj.org.ldemetrios.noexcept" />
       <recent name="$PROJECT_DIR$/noexcept/src" />
       <recent name="$PROJECT_DIR$/noexcept/aspect" />
       <recent name="$PROJECT_DIR$/reinterpret_cast" />
@@ -155,6 +157,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="useHeartbeat" value="true" />
+      <setting name="focusEditor" value="false" />
+      <setting name="urlFile" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ldemetrios.MainKt" />
       <module name="Grimoire.ktor-with-typst.main" />
@@ -162,10 +195,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kotlin.scripts.KotlinBuildScript.noexcept:build.gradle.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kotlin.scripts.KotlinBuildScript.noexcept:build.gradle.kts" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -248,9 +292,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/ktor-with-typst/src/Main.kt</url>
-          <line>62</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/prolog/src/main/kotlin/Main.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/reinterpret_case/src/main/java/org/ldemetrios/Main.java</url>

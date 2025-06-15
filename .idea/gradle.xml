@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ktor-with-typst" />
+            <option value="$PROJECT_DIR$/prolog" />
             <option value="$PROJECT_DIR$/reinterpret_cast" />
           </set>
         </option>
